@@ -1,0 +1,39 @@
+:root {
+    --black: #151515;
+    --white: #f6f6f6;
+    --lilac: #C8ACD6;
+    --soft-purple: #433D8B;
+    --medium-purple: #2E236C;
+    --dark-purple: #17153B;
+}
+
+* {
+    background-color: var(--lilac);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 400px;
+}
+
+.login_div {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+#login_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 80px;
+}
